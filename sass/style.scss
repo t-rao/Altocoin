@@ -2,9 +2,19 @@
 @import 'mobile';
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 body{
-    color:red;
-    font-size: 18px;
-    background: #c9c9c9;
+    font-size: 18px;    
+}
+.header.active {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }

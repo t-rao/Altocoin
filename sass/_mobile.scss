@@ -1,20 +1,515 @@
 // Widescreens
 @include mediaXl{
 
+    // background image header
+    .hero_bg{
+        width: 100%;
+        background-image: url(../img/landingpage_bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        min-height:700px;
+        background-position: center;
+         //Header 
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            z-index: 10000;
+            transition: all 0.2s ease-in-out;
+            height: auto;
+            background-color: transparent;
+            line-height: 40px;
+            height: 80px;
+            padding-top: 20px;
+            .header_wrapper {
+                width: 100%;
+                max-width: 1080px;
+                margin: auto;
+                h1 {
+                    float: left;
+                    @include Noto;
+                    font-size: 1.2em;
+                    text-decoration: none;
+                    color: white;
+                }
+                nav {
+                    float: right;
+                    .icon {
+                        display: none;
+                    }                
+                    .menu {
+                        width: 600px;
+                    }
+                    .menu li {
+                        float: left;
+                        @include Noto;
+                        font-size: 16px;
+                    }
+                    ul {
+                        list-style: none;
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        .nav_item a {
+                            color: white;
+                            @include Noto;
+                            font-weight: 500;
+                        }
+                        li a {
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        .hero_text{
+            width: 800px;
+            margin: 0  auto;
+            padding-top: 240px;
+            text-align: center;
+             color: white;
+             h3{
+                 font-size: 24px;
+                 @include Noto;
+                 margin-bottom: 20px;
+             }
+             h2{
+                 font-size:34px;
+                 @include Noto;
+                 letter-spacing: 2px;
+             }
+             .ghost_btn{
+                 width: 310px;
+                 color: white;
+                 @include Noto;
+                 font-weight: 500;
+                 border: 1px white solid;
+                 border-radius: 100px;
+                 display: block;
+                 padding: 20px 60px;
+                 margin: 0 auto;
+                 margin-top: 40px;
+             }
+        }
+
+
+    }
+      
+
+
+
+
+    
 }
+
 
 //Desktop & Laptops
 @include mediaLg{
+
+ // background image header
+ .hero_bg{
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height:700px;
+     //Header 
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 10000;
+        transition: all 0.2s ease-in-out;
+        height: auto;
+        background-color: transparent;
+        line-height: 40px;
+        height: 80px;
+        padding-top: 20px;
+        .header_wrapper {
+            width: 100%;
+            max-width: 960px;
+            margin: auto;
+            h1 {
+                float: left;
+                @include Noto;
+                font-size: 1.2em;
+                text-decoration: none;
+                color: white;
+            }
+            nav {
+                float: right;
+                .icon {
+                    display: none;
+                }                
+                .menu {
+                    width: 528px;
+                }
+                .menu li {
+                    float: left;
+                    @include Noto;
+                    font-size: 16px;
+                }
+                ul {
+                    list-style: none;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    .nav_item a {
+                        color: white;
+                        @include Noto;
+                        font-weight: 500;
+                    }
+                    li a {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .hero_text{
+        width: 800px;
+        margin: 0  auto;
+        padding-top: 240px;
+        text-align: center;
+         color: white;
+         h3{
+             font-size: 22px;
+             @include Noto;
+             margin-bottom: 20px;
+         }
+         h2{
+             font-size:28px;
+             @include Noto;
+             letter-spacing: 2px;
+         }
+         .ghost_btn{
+             width: 350px;
+             color: white;
+             @include Noto;
+             font-weight: 500;
+             border: 1px white solid;
+             border-radius: 100px;
+             display: block;
+             padding: 20px 60px;
+             margin: 0 auto;
+             margin-top: 40px;
+             letter-spacing: 2px;
+         }
+    }
+
+}
+
+
+
 
 }
 
 //Tablets & Small Laptops
 @include mediaMd{
 
+    // background image header
+ .hero_bg{
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height:700px;
+     //Header 
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 10000;
+        transition: all 0.2s ease-in-out;
+        height: auto;
+        background-color: transparent;
+        line-height: 40px;
+        height: 80px;
+        padding-top: 20px;
+        .header_wrapper {
+            width: 100%;
+            // max-width: 960px;
+            margin: auto;
+            h1 {
+                float: left;
+                @include Noto;
+                font-size: 1.2em;
+                text-decoration: none;
+                color: white;
+                padding-left: 30px;
+            }
+            nav {
+                float: right;
+                .icon {
+                    display: block;
+                } 
+                
+                span.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 20px;
+                    box-sizing: border-box;
+                    font-size: 29px;
+                    padding-right: 30px;
+                }
+                // .menu {
+                //     width: 528px;
+                // }
+                .menu li {
+                    // float: left;
+                    @include Noto;
+                    font-size: 16px;
+                }
+                ul {
+                    list-style: none;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    .nav_item a {
+                        color: white;
+                        @include Noto;
+                        font-weight: 500;
+                    }
+                    li a {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                .overlay {
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    background-color: rgba(0, 0, 0, 0.9);
+                    overflow-x: hidden;
+                    transition: 0.5s;
+
+                    #closebtn {
+                        width: 50px;
+                        height: 50px;
+                        background: none;
+                        color: white;
+                        margin-right: 0px;
+                    }
+                    .overlay li {
+                        padding: 8px;
+                        text-decoration: none;
+                        font-size: 36px;
+                        color: white;
+                        display: block;
+                        transition: 0.3s;
+                        letter-spacing: 2px;
+                        line-height: 150%;
+                    }
+
+                    .overlay-content {
+                        position: relative;
+                        top: 15%;
+                        width: 100%;
+                        /* text-align: center; */
+                        margin-top: 30px;
+                        color: white !important;
+                    }
+                }
+            }
+        }
+    }
+    .hero_text{
+        width: 100%;
+        margin: 0  auto;
+        padding-top: 240px;
+        text-align: center;
+         color: white;
+         h3{
+             font-size: 22px;
+             @include Noto;
+             margin-bottom: 20px;
+         }
+         h2{
+             font-size:28px;
+             @include Noto;
+             letter-spacing: 2px;
+         }
+         .ghost_btn{
+             width: 350px;
+             color: white;
+             @include Noto;
+             font-weight: 500;
+             border: 1px white solid;
+             border-radius: 100px;
+             display: block;
+             padding: 20px 60px;
+             margin: 0 auto;
+             margin-top: 40px;
+             letter-spacing: 2px;
+         }
+    }
+
+}
+
 }
 
 
 //Smartphones
 @include mediaSm{
+ // background image header
+ .hero_bg{
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height:700px;
+     //Header 
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 10000;
+        transition: all 0.2s ease-in-out;
+        height: auto;
+        background-color: transparent;
+        line-height: 40px;
+        height: 80px;
+        padding-top: 20px;
+        .header_wrapper {
+            width: 100%;
+            // max-width: 960px;
+            margin: auto;
+            h1 {
+                float: left;
+                @include Noto;
+                font-size: 1em;
+                text-decoration: none;
+                color: white;
+                padding-left: 15px;
+            }
+            nav {
+                float: right;
+                .icon {
+                    display: block;
+                } 
+                
+                span.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 20px;
+                    box-sizing: border-box;
+                    font-size: 29px;
+                    padding-right: 15px;
+                }
+                // .menu {
+                //     width: 528px;
+                // }
+                .menu li {
+                    // float: left;
+                    @include Noto;
+                    font-size: 16px;
+                }
+                ul {
+                    list-style: none;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    .nav_item a {
+                        color: white;
+                        @include Noto;
+                        font-weight: 500;
+                    }
+                    li a {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                .overlay {
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    background-color: rgba(0, 0, 0, 0.9);
+                    overflow-x: hidden;
+                    transition: 0.5s;
 
+                    #closebtn {
+                        width: 50px;
+                        height: 50px;
+                        background: none;
+                        color: white;
+                        margin-right: 0px;
+                    }
+                    .overlay li {
+                        padding: 8px;
+                        text-decoration: none;
+                        font-size: 36px;
+                        color: white;
+                        display: block;
+                        transition: 0.3s;
+                        letter-spacing: 2px;
+                        line-height: 150%;
+                    }
+
+                    .overlay-content {
+                        position: relative;
+                        top: 15%;
+                        width: 100%;
+                        /* text-align: center; */
+                        margin-top: 30px;
+                        color: white !important;
+                    }
+                }
+            }
+        }
+    }
+    .hero_text{
+        width: 95%;
+        margin: 0  auto;
+        padding-top: 240px;
+        text-align: center;
+         color: white;
+         h3{
+             font-size: 18px;
+             @include Noto;
+             margin-bottom: 20px;
+         }
+         h2{
+             font-size:22px;
+             @include Noto;
+             letter-spacing: 1px;
+         }
+         .ghost_btn{
+             width: 350px;
+             color: white;
+             @include Noto;
+             font-weight: 500;
+             border: 1px white solid;
+             border-radius: 100px;
+             display: block;
+             padding: 20px 60px;
+             margin: 0 auto;
+             margin-top: 40px;
+             letter-spacing: 2px;
+         }
+    }
+
+}
 }

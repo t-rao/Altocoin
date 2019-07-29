@@ -1,3 +1,13 @@
+
+@mixin Noto {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+@mixin Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 // Media Query Mixins
 
 @mixin mediaSm{

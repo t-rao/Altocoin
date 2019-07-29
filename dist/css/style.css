@@ -1,7 +1,412 @@
+@media screen and (min-width: 1171px) {
+  .hero_bg {
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-position: center; }
+    .hero_bg header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      z-index: 10000;
+      transition: all 0.2s ease-in-out;
+      height: auto;
+      background-color: transparent;
+      line-height: 40px;
+      height: 80px;
+      padding-top: 20px; }
+      .hero_bg header .header_wrapper {
+        width: 100%;
+        max-width: 1080px;
+        margin: auto; }
+        .hero_bg header .header_wrapper h1 {
+          float: left;
+          font-family: 'Noto Sans JP', sans-serif;
+          font-size: 1.2em;
+          text-decoration: none;
+          color: white; }
+        .hero_bg header .header_wrapper nav {
+          float: right; }
+          .hero_bg header .header_wrapper nav .icon {
+            display: none; }
+          .hero_bg header .header_wrapper nav .menu {
+            width: 600px; }
+          .hero_bg header .header_wrapper nav .menu li {
+            float: left;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px; }
+          .hero_bg header .header_wrapper nav ul {
+            list-style: none;
+            margin: 0 !important;
+            padding: 0 !important; }
+            .hero_bg header .header_wrapper nav ul .nav_item a {
+              color: white;
+              font-family: 'Noto Sans JP', sans-serif;
+              font-weight: 500; }
+            .hero_bg header .header_wrapper nav ul li a {
+              padding-left: 20px;
+              padding-right: 20px;
+              text-decoration: none;
+              color: white; }
+    .hero_bg .hero_text {
+      width: 800px;
+      margin: 0  auto;
+      padding-top: 240px;
+      text-align: center;
+      color: white; }
+      .hero_bg .hero_text h3 {
+        font-size: 24px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-bottom: 20px; }
+      .hero_bg .hero_text h2 {
+        font-size: 34px;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 2px; }
+      .hero_bg .hero_text .ghost_btn {
+        width: 310px;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        border: 1px white solid;
+        border-radius: 100px;
+        display: block;
+        padding: 20px 60px;
+        margin: 0 auto;
+        margin-top: 40px; } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .hero_bg {
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px; }
+    .hero_bg header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      z-index: 10000;
+      transition: all 0.2s ease-in-out;
+      height: auto;
+      background-color: transparent;
+      line-height: 40px;
+      height: 80px;
+      padding-top: 20px; }
+      .hero_bg header .header_wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin: auto; }
+        .hero_bg header .header_wrapper h1 {
+          float: left;
+          font-family: 'Noto Sans JP', sans-serif;
+          font-size: 1.2em;
+          text-decoration: none;
+          color: white; }
+        .hero_bg header .header_wrapper nav {
+          float: right; }
+          .hero_bg header .header_wrapper nav .icon {
+            display: none; }
+          .hero_bg header .header_wrapper nav .menu {
+            width: 528px; }
+          .hero_bg header .header_wrapper nav .menu li {
+            float: left;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px; }
+          .hero_bg header .header_wrapper nav ul {
+            list-style: none;
+            margin: 0 !important;
+            padding: 0 !important; }
+            .hero_bg header .header_wrapper nav ul .nav_item a {
+              color: white;
+              font-family: 'Noto Sans JP', sans-serif;
+              font-weight: 500; }
+            .hero_bg header .header_wrapper nav ul li a {
+              padding-left: 20px;
+              padding-right: 20px;
+              text-decoration: none;
+              color: white; }
+    .hero_bg .hero_text {
+      width: 800px;
+      margin: 0  auto;
+      padding-top: 240px;
+      text-align: center;
+      color: white; }
+      .hero_bg .hero_text h3 {
+        font-size: 22px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-bottom: 20px; }
+      .hero_bg .hero_text h2 {
+        font-size: 28px;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 2px; }
+      .hero_bg .hero_text .ghost_btn {
+        width: 350px;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        border: 1px white solid;
+        border-radius: 100px;
+        display: block;
+        padding: 20px 60px;
+        margin: 0 auto;
+        margin-top: 40px;
+        letter-spacing: 2px; } }
+
+@media screen and (max-width: 768px) {
+  .hero_bg {
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px; }
+    .hero_bg header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      z-index: 10000;
+      transition: all 0.2s ease-in-out;
+      height: auto;
+      background-color: transparent;
+      line-height: 40px;
+      height: 80px;
+      padding-top: 20px; }
+      .hero_bg header .header_wrapper {
+        width: 100%;
+        margin: auto; }
+        .hero_bg header .header_wrapper h1 {
+          float: left;
+          font-family: 'Noto Sans JP', sans-serif;
+          font-size: 1.2em;
+          text-decoration: none;
+          color: white;
+          padding-left: 30px; }
+        .hero_bg header .header_wrapper nav {
+          float: right; }
+          .hero_bg header .header_wrapper nav .icon {
+            display: block; }
+          .hero_bg header .header_wrapper nav span.icon {
+            position: absolute;
+            right: 0;
+            top: 20px;
+            box-sizing: border-box;
+            font-size: 29px;
+            padding-right: 30px; }
+          .hero_bg header .header_wrapper nav .menu li {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px; }
+          .hero_bg header .header_wrapper nav ul {
+            list-style: none;
+            margin: 0 !important;
+            padding: 0 !important; }
+            .hero_bg header .header_wrapper nav ul .nav_item a {
+              color: white;
+              font-family: 'Noto Sans JP', sans-serif;
+              font-weight: 500; }
+            .hero_bg header .header_wrapper nav ul li a {
+              padding-left: 20px;
+              padding-right: 20px;
+              text-decoration: none;
+              color: white; }
+          .hero_bg header .header_wrapper nav .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s; }
+            .hero_bg header .header_wrapper nav .overlay #closebtn {
+              width: 50px;
+              height: 50px;
+              background: none;
+              color: white;
+              margin-right: 0px; }
+            .hero_bg header .header_wrapper nav .overlay .overlay li {
+              padding: 8px;
+              text-decoration: none;
+              font-size: 36px;
+              color: white;
+              display: block;
+              transition: 0.3s;
+              letter-spacing: 2px;
+              line-height: 150%; }
+            .hero_bg header .header_wrapper nav .overlay .overlay-content {
+              position: relative;
+              top: 15%;
+              width: 100%;
+              /* text-align: center; */
+              margin-top: 30px;
+              color: white !important; }
+    .hero_bg .hero_text {
+      width: 100%;
+      margin: 0  auto;
+      padding-top: 240px;
+      text-align: center;
+      color: white; }
+      .hero_bg .hero_text h3 {
+        font-size: 22px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-bottom: 20px; }
+      .hero_bg .hero_text h2 {
+        font-size: 28px;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 2px; }
+      .hero_bg .hero_text .ghost_btn {
+        width: 350px;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        border: 1px white solid;
+        border-radius: 100px;
+        display: block;
+        padding: 20px 60px;
+        margin: 0 auto;
+        margin-top: 40px;
+        letter-spacing: 2px; } }
+
+@media screen and (max-width: 500px) {
+  .hero_bg {
+    width: 100%;
+    background-image: url(../img/landingpage_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px; }
+    .hero_bg header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      z-index: 10000;
+      transition: all 0.2s ease-in-out;
+      height: auto;
+      background-color: transparent;
+      line-height: 40px;
+      height: 80px;
+      padding-top: 20px; }
+      .hero_bg header .header_wrapper {
+        width: 100%;
+        margin: auto; }
+        .hero_bg header .header_wrapper h1 {
+          float: left;
+          font-family: 'Noto Sans JP', sans-serif;
+          font-size: 1em;
+          text-decoration: none;
+          color: white;
+          padding-left: 15px; }
+        .hero_bg header .header_wrapper nav {
+          float: right; }
+          .hero_bg header .header_wrapper nav .icon {
+            display: block; }
+          .hero_bg header .header_wrapper nav span.icon {
+            position: absolute;
+            right: 0;
+            top: 20px;
+            box-sizing: border-box;
+            font-size: 29px;
+            padding-right: 15px; }
+          .hero_bg header .header_wrapper nav .menu li {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px; }
+          .hero_bg header .header_wrapper nav ul {
+            list-style: none;
+            margin: 0 !important;
+            padding: 0 !important; }
+            .hero_bg header .header_wrapper nav ul .nav_item a {
+              color: white;
+              font-family: 'Noto Sans JP', sans-serif;
+              font-weight: 500; }
+            .hero_bg header .header_wrapper nav ul li a {
+              padding-left: 20px;
+              padding-right: 20px;
+              text-decoration: none;
+              color: white; }
+          .hero_bg header .header_wrapper nav .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s; }
+            .hero_bg header .header_wrapper nav .overlay #closebtn {
+              width: 50px;
+              height: 50px;
+              background: none;
+              color: white;
+              margin-right: 0px; }
+            .hero_bg header .header_wrapper nav .overlay .overlay li {
+              padding: 8px;
+              text-decoration: none;
+              font-size: 36px;
+              color: white;
+              display: block;
+              transition: 0.3s;
+              letter-spacing: 2px;
+              line-height: 150%; }
+            .hero_bg header .header_wrapper nav .overlay .overlay-content {
+              position: relative;
+              top: 15%;
+              width: 100%;
+              /* text-align: center; */
+              margin-top: 30px;
+              color: white !important; }
+    .hero_bg .hero_text {
+      width: 95%;
+      margin: 0  auto;
+      padding-top: 240px;
+      text-align: center;
+      color: white; }
+      .hero_bg .hero_text h3 {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-bottom: 20px; }
+      .hero_bg .hero_text h2 {
+        font-size: 22px;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 1px; }
+      .hero_bg .hero_text .ghost_btn {
+        width: 350px;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        border: 1px white solid;
+        border-radius: 100px;
+        display: block;
+        padding: 20px 60px;
+        margin: 0 auto;
+        margin-top: 40px;
+        letter-spacing: 2px; } }
+
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  color: black;
+  text-decoration: none; }
 
 body {
-  color: red;
-  font-size: 18px;
-  background: #c9c9c9; }
+  font-size: 18px; }
+
+.header.active {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); }
