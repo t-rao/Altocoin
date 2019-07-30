@@ -170,26 +170,56 @@
             
         }
         table{
+            text-align: center;
             @include Poppins;
             width: 860px;
             margin: 0 auto;
             border-collapse: collapse; 
             tr:first-child{
-                th{
+                th:nth-child(1){
                     // text-align: left;
-                    padding-left: 20px;
+                    padding-left: 50px;
                     padding-bottom: 20px;
-                    border-bottom: 1px solid blue;
+                    border-bottom: 2px solid blue;
+                    width: 190px;
+                    text-align: left;
+                    font-size: 22px;
+                }
+                th:nth-child(4){
+                    // text-align: left;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    width: 190px;
+                    text-align: left;
                 }
                 // display: inline-block;
-                border-bottom: 1px solid blue;
+                border-bottom: 2px solid blue;
+            }
+            
+            tr{
+                height: 50px;
+                th{
+                    letter-spacing: 1px;
+                    font-size: 18px;
+                }
+                td{
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                }
+                td:nth-child(4){
+                    text-align: left;
+                    padding-left: 50px;
+                }
             }
 
             .row{
+                border-bottom: solid 1px #d9d9d9;
                 th{
                     color: #02659b;
                     text-align: left;
                     padding-left: 40px;
+                    font-size: 18px;
                 }
             }
         }
@@ -360,6 +390,79 @@
         }
     }
 }
+
+
+.rate_list{
+    height: auto;
+    padding-bottom: 120px;
+    .inner_rate_list{
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        .rate_list_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+            
+        }
+        table{
+            text-align: center;
+            @include Poppins;
+            width: 860px;
+            margin: 0 auto;
+            border-collapse: collapse; 
+            tr:first-child{
+                th:nth-child(1){
+                    // text-align: left;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    width: 190px;
+                    text-align: left;
+                    font-size: 22px;
+                }
+                th:nth-child(4){
+                    // text-align: left;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    width: 190px;
+                    text-align: left;
+                }
+                // display: inline-block;
+                border-bottom: 2px solid blue;
+            }
+            
+            tr{
+                height: 50px;
+                th{
+                    letter-spacing: 1px;
+                    font-size: 18px;
+                }
+                td{
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                }
+                td:nth-child(4){
+                    text-align: left;
+                    padding-left: 50px;
+                }
+            }
+
+            .row{
+                border-bottom: solid 1px #d9d9d9;
+                th{
+                    color: #02659b;
+                    text-align: left;
+                    padding-left: 40px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
 
 
 
@@ -571,6 +674,79 @@
         }
     }
 }
+
+.rate_list{
+    height: auto;
+    padding-bottom: 120px;
+    .inner_rate_list{
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        .rate_list_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+            
+        }
+        table{
+            text-align: center;
+            @include Poppins;
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse; 
+            tr:first-child{
+                th:nth-child(1){
+                    // text-align: left;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    width: 20%;
+                    text-align: left;
+                    font-size: 22px;
+                }
+                th:nth-child(4){
+                    // text-align: left;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    width: 30%;
+                    text-align: left;
+                }
+                // display: inline-block;
+                border-bottom: 2px solid blue;
+            }
+            
+            tr{
+                height: 50px;
+                th{
+                    letter-spacing: 1px;
+                    font-size: 18px;
+                }
+                td{
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                }
+                td:nth-child(4){
+                    text-align: left;
+                    padding-left: 50px;
+                }
+            }
+
+            .row{
+                border-bottom: solid 1px #d9d9d9;
+                th{
+                    color: #02659b;
+                    text-align: left;
+                    padding-left: 40px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+
 
 
 
@@ -785,6 +961,79 @@
         }
     }
 }
+
+
+.rate_list{
+    height: auto;
+    padding-bottom: 120px;
+    .inner_rate_list{
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        .rate_list_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+            
+        }
+        table{
+            text-align: center;
+            @include Poppins;
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse; 
+            tr:first-child{
+                th:nth-child(1){
+                    // text-align: left;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    // width: 20%;
+                    text-align: left;
+                    font-size: 16px;
+                }
+                th:nth-child(4){
+                    // text-align: left;
+                    padding-left: 29px;
+                    padding-bottom: 20px;
+                    border-bottom: 2px solid blue;
+                    // width: 30%;
+                    text-align: left;
+                }
+                // display: inline-block;
+                border-bottom: 2px solid blue;
+            }
+            
+            tr{
+                height: 50px;
+                th{
+                    letter-spacing: 1px;
+                    font-size: 16px;
+                }
+                td{
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+                td:nth-child(4){
+                    text-align: left;
+                    padding-left: 30px;
+                }
+            }
+
+            .row{
+                border-bottom: solid 1px #d9d9d9;
+                th{
+                    color: #02659b;
+                    text-align: left;
+                    padding-left: 20px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
 
 
 
