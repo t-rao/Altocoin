@@ -226,7 +226,90 @@
     }
 }
 
+.six_fun{
+    .inner_six_fun{
+        width: 100%;
+        max-width: 1080px;
+        margin: auto;
+        .six_fun_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+        }
+        .steps_grid_l{
+            display: grid;
+            grid-template-columns: 480px 600px;
+            grid-column-gap: 30px;
+            height: auto;
+            margin-bottom: 80px;
+            .limg_container{
+                width: 400px;
+                text-align: center;
+                padding-top: 30px;
+                img{
+                    width: 90%;
+                }
+                
+            }
+        }
+        .steps_grid_r{
+            display: grid;
+            grid-template-columns: 600px 480px ;
+            grid-column-gap: 30px;
+            height: auto;
+            
+            margin-bottom: 80px;
+            .rimg_container{
+                width: 400px;
+                text-align: center;
+                padding-top: 30px;
+                img{
+                    width: 90%;
+                }
+                
+            }
+        }
 
+        .title{
+            display: grid;
+            grid-template-columns: 80px 520px; 
+            height: 80px;
+            margin-bottom: 20px;
+            p{
+                @include Noto;
+                width: 60px;
+                height: 60px;
+                background-color: #02659b;
+                color: white;
+                text-align: center;
+                padding-top: 20%;
+                border-radius: 100px;
+                font-size: 18px;
+            }
+            h3{
+                color: #02659b;
+                @include Noto;
+                font-weight: black;
+                letter-spacing: 2px;
+            }
+        }
+        .ltext_container{
+            padding-top: 60px;
+        }
+        .rtext_container{
+            padding-top: 60px;
+        }
+        .para{
+            @include Noto;
+            font-size: 18px;
+            color: #232323;
+            font-weight: lighter;
+            line-height: 250%;
+            letter-spacing: 1px;
+        }
+    }
+}
 
 
     
@@ -463,8 +546,90 @@
     }
 }
 
+.six_fun{
+    .inner_six_fun{
+        width: 100%;
+        max-width: 1080px;
+        margin: auto;
+        .six_fun_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+        }
+        .steps_grid_l{
+            display: grid;
+            grid-template-columns: 480px 600px;
+            grid-column-gap: 30px;
+            height: auto;
+            margin-bottom: 80px;
+            .limg_container{
+                width: 400px;
+                text-align: center;
+                padding-top: 30px;
+                img{
+                    width: 90%;
+                }
+                
+            }
+        }
+        .steps_grid_r{
+            display: grid;
+            grid-template-columns: 600px 480px ;
+            grid-column-gap: 30px;
+            height: auto;
+            
+            margin-bottom: 80px;
+            .rimg_container{
+                width: 400px;
+                text-align: center;
+                padding-top: 30px;
+                img{
+                    width: 90%;
+                }
+                
+            }
+        }
 
-
+        .title{
+            display: grid;
+            grid-template-columns: 80px 520px; 
+            height: 80px;
+            margin-bottom: 20px;
+            p{
+                @include Noto;
+                width: 60px;
+                height: 60px;
+                background-color: #02659b;
+                color: white;
+                text-align: center;
+                padding-top: 20%;
+                border-radius: 100px;
+                font-size: 18px;
+            }
+            h3{
+                color: #02659b;
+                @include Noto;
+                font-weight: black;
+                letter-spacing: 2px;
+            }
+        }
+        .ltext_container{
+            padding-top: 60px;
+        }
+        .rtext_container{
+            padding-top: 60px;
+        }
+        .para{
+            @include Noto;
+            font-size: 18px;
+            color: #232323;
+            font-weight: lighter;
+            line-height: 250%;
+            letter-spacing: 1px;
+        }
+    }
+}
 
 }
 
@@ -973,20 +1138,22 @@
         .rate_list_heading{
             @include h2p;
             h2{
-                font-size: 28px;
+                font-size: 24px;
             }
             
         }
         table{
+            // display: inline-block;
             text-align: center;
             @include Poppins;
-            width: 100%;
+            display:block;
+            width: 94%;
             margin: 0 auto;
             border-collapse: collapse; 
             tr:first-child{
                 th:nth-child(1){
                     // text-align: left;
-                    padding-left: 50px;
+                    padding-left: 30px;
                     padding-bottom: 20px;
                     border-bottom: 2px solid blue;
                     // width: 20%;
@@ -995,7 +1162,7 @@
                 }
                 th:nth-child(4){
                     // text-align: left;
-                    padding-left: 29px;
+                    padding-left: 11px;
                     padding-bottom: 20px;
                     border-bottom: 2px solid blue;
                     // width: 30%;
@@ -1026,8 +1193,8 @@
                 th{
                     color: #02659b;
                     text-align: left;
-                    padding-left: 20px;
-                    font-size: 16px;
+                    padding-left: 12px;
+                    font-size: 14px;
                 }
             }
         }
