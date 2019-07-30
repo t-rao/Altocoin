@@ -25,7 +25,7 @@
             padding-top: 20px;
             .header_wrapper {
                 width: 100%;
-                max-width: 1080px;
+                max-width: 1280px;
                 margin: auto;
                 h1 {
                     float: left;
@@ -40,7 +40,7 @@
                         display: none;
                     }                
                     .menu {
-                        width: 600px;
+                        width: 528px;
                     }
                     .menu li {
                         float: left;
@@ -99,6 +99,102 @@
 
     }
       
+
+.corres{
+    height: 500px;
+    .inner_corres{
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        padding-top: 80px;
+        .corres_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+        }
+        .brands{
+            width: 1059px;
+            margin: 0 auto;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+.hwork{
+    height: auto;
+    padding-bottom: 120px;
+    .innerhwork{
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        .hwork_heading{
+            @include h2h3p;
+            h2{
+                font-size: 28px;
+            }
+            h3{
+                font-size: 20px;
+            }
+        }
+        .hwork_process{
+            width: 800px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.rate_list{
+    height: auto;
+    padding-bottom: 120px;
+    .inner_rate_list{
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        .rate_list_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+            
+        }
+        table{
+            @include Poppins;
+            width: 860px;
+            margin: 0 auto;
+            border-collapse: collapse; 
+            tr:first-child{
+                th{
+                    // text-align: left;
+                    padding-left: 20px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid blue;
+                }
+                // display: inline-block;
+                border-bottom: 1px solid blue;
+            }
+
+            .row{
+                th{
+                    color: #02659b;
+                    text-align: left;
+                    padding-left: 40px;
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -208,6 +304,62 @@
 
 }
 
+.corres{
+    height: 500px;
+    .inner_corres{
+        width: 100%;
+        max-width: 960px;
+        margin: auto;
+        padding-top: 80px;
+        .corres_heading{
+            @include h2p;
+            h2{
+                font-size: 28px;
+            }
+        }
+        .brands{
+            width:960px;
+            margin: 0 auto;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.hwork{
+    height: auto;
+    padding-bottom: 120px;
+    .innerhwork{
+        width: 100%;
+        max-width: 960px;
+        margin: auto;
+        .hwork_heading{
+            @include h2h3p;
+            h2{
+                font-size: 28px;
+            }
+            h3{
+                font-size: 20px;
+            }
+        }
+        .hwork_process{
+            min-width: 700px;
+            max-width: 800px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
 
 
 
@@ -362,6 +514,68 @@
 
 }
 
+
+.corres{
+    height: 370px;
+    .inner_corres{
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        padding-top: 80px;
+        .corres_heading{
+            @include h2p;
+            h2{
+                font-size: 24px;
+            }
+        }
+        .brands{
+            width:600px;
+            margin: 0 auto;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.hwork{
+    height: auto;
+    padding-bottom: 120px;
+    .innerhwork{
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        .hwork_heading{
+            @include h2h3p;
+            h2{
+                font-size: 24px;
+            }
+            h3{
+                font-size: 18px;
+            }
+        }
+        .hwork_process{
+            min-width: 400px;
+            max-width: 600px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
 }
 
 
@@ -512,4 +726,70 @@
     }
 
 }
+
+
+
+
+.corres{
+    height: 500px;
+    .inner_corres{
+        width: 100%;
+        max-width:95%;
+        margin: auto;
+        padding-top: 80px;
+        .corres_heading{
+            @include h2p;
+            h2{
+                font-size: 24px;
+            }
+        }
+        .brands{
+            width:100%;
+            margin: 0 auto;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.hwork{
+    height: auto;
+    padding-bottom: 120px;
+    .innerhwork{
+        width: 100%;
+        max-width: 95%;
+        margin: auto;
+        .hwork_heading{
+            @include h2h3p;
+            h2{
+                font-size: 24px;
+            }
+            h3{
+                font-size: 18px;
+            }
+        }
+        .hwork_process{
+            width: 100%;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
 }

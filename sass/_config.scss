@@ -7,6 +7,50 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@mixin h2p {
+    h2{
+        @include Noto;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+   p{
+       height: 4px;
+       border-radius: 10px;
+       width: 50px;
+       margin: 0 auto;
+       margin-bottom: 40px;
+       background-image: linear-gradient(to right,  #02659b,#10a7df );
+   } 
+}
+
+@mixin h2h3p {
+    h2{
+        @include Noto;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    h3{
+        @include Noto;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #aaaaaa;
+    }
+   p{
+       height: 4px;
+       border-radius: 10px;
+       width: 50px;
+       margin: 0 auto;
+       margin-bottom: 40px;
+       background-image: linear-gradient(to right,  #02659b,#10a7df );
+   } 
+}
 
 // Media Query Mixins
 
@@ -23,14 +67,14 @@
 }
 
 @mixin mediaLg{
-    @media screen and (min-width:769px) and (max-width:1170px) {
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
         @content;
     }
 }
 
 
 @mixin mediaXl{
-    @media screen and (min-width:1171px) {
+    @media screen and (min-width: 1201px) {
         @content;
     }
 }
