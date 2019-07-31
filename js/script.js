@@ -87,3 +87,26 @@ $(window).on("scroll", function() {
     });
   });
   
+
+
+
+  $(document).ready(function(){
+  //   $(".faq_disc").hide();
+  //   $('.faq_title h3').click(function () {
+  //     var index = $(this).index(),
+  //         newTarget = $('.faq_disc').eq(index).slideDown();
+  //     $('.faq_disc').not(newTarget).slideUp();
+
+  // });
+
+
+
+
+    $(".faq_disc").hide();
+    $(".faq_title h3").click(function(){
+        $(".faq_disc").slideDown();
+    });
+    $(".slide-down").click(function(){
+      $(".faq_disc").slideUp();
+    });
+});
