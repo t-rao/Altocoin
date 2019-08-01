@@ -44,7 +44,7 @@
           }
 
           .menu {
-            width: 528px;
+            width: 650px;
           }
 
           .menu li {
@@ -69,6 +69,24 @@
               padding-right: 20px;
               text-decoration: none;
               color: white;
+            }
+          }
+
+
+          #free_btn{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+            background-image: url(..\img\white_arrow.png);
+            background-image: linear-gradient(to right, #dc4588,#ff8940);
+            span{
+              margin-left: 10px;
+              img{
+                width: 8px;
+              }
             }
           }
         }
@@ -540,6 +558,49 @@
       }
     }
   }
+
+.tools{
+.inner_tools{
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  margin-bottom: 100px;
+  .tools_heading {
+    @include h2p;
+    h2 {
+      font-size: 28px;
+        }
+      }
+
+.banner{
+  width: 1080px;
+  img{
+    width: 100%;
+  }
+}
+
+
+    }
+  }
+
+
+  .banner_2{
+    .inner_banner_2{
+      width: 100%;
+      max-width: 960px;
+      margin: auto;
+      margin-bottom: 100px;
+      .banner_2_img{
+        width: 800px;
+        margin: 0 auto;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    }
+
+
 }
 //Desktop & Laptops
 @include mediaLg {
@@ -587,7 +648,7 @@
           }
 
           .menu {
-            width: 528px;
+            width: 624px;
           }
 
           .menu li {
@@ -612,6 +673,23 @@
               padding-right: 20px;
               text-decoration: none;
               color: white;
+            }
+          }
+
+          #free_btn{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+            background-image: url(..\img\white_arrow.png);
+            background-image: linear-gradient(to right, #dc4588,#ff8940);
+            span{
+              margin-left: 10px;
+              img{
+                width: 8px;
+              }
             }
           }
         }
@@ -1086,6 +1164,47 @@
       }
     }
   }
+
+  .tools{
+    .inner_tools{
+      width: 100%;
+      max-width: 960px;
+      margin: auto;
+      margin-bottom: 100px;
+      .tools_heading {
+        @include h2p;
+        h2 {
+          font-size: 28px;
+            }
+          }
+    
+    .banner{
+      width: 700px;
+      margin: 0 auto;
+      img{
+        width: 100%;
+      }
+    }
+    
+    
+        }
+      }
+      .banner_2{
+        .inner_banner_2{
+          width: 100%;
+          max-width: 960px;
+          margin: auto;
+          margin-bottom: 100px;
+          .banner_2_img{
+            width: 800px;
+            margin: 0 auto;
+            img{
+              width: 100%;
+            }
+          }
+        }
+        }
+
 }
 //Tablets & Small Laptops
 @include mediaMd {
@@ -1148,6 +1267,7 @@
             // float: left;
             @include Noto;
             font-size: 16px;
+            margin-bottom: 60px;
           }
 
           ul {
@@ -1159,6 +1279,7 @@
               color: white;
               @include Noto;
               font-weight: 500;
+              font-size: 30px;
             }
 
             li a {
@@ -1166,6 +1287,7 @@
               padding-right: 20px;
               text-decoration: none;
               color: white;
+              text-align: center;
             }
           }
 
@@ -1206,6 +1328,23 @@
               /* text-align: center; */
               margin-top: 30px;
               color: white !important;
+            }
+          }
+          #free_btn{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+            background-image: url(..\img\white_arrow.png);
+            background-image: linear-gradient(to right, #dc4588,#ff8940);
+            
+            span{
+              margin-left: 10px;
+              img{
+                width: 18px;
+              }
             }
           }
         }
@@ -1682,6 +1821,46 @@
       }
     }
   }
+
+  .tools{
+    .inner_tools{
+      width: 100%;
+      margin: auto;
+      margin-bottom: 100px;
+      .tools_heading {
+        @include h2p;
+        h2 {
+          font-size: 28px;
+            }
+          }
+    
+    .banner{
+      width: 90%;
+      margin: 0 auto;
+      img{
+        width: 100%;
+      }
+    }
+    
+    
+        }
+      }
+
+      .banner_2{
+        .inner_banner_2{
+          width: 100%;
+          margin: auto;
+          margin-bottom: 100px;
+          .banner_2_img{
+            width: 95%;
+            margin: 0 auto;
+            img{
+              width: 100%;
+            }
+          }
+        }
+        }
+
 }
 //Smartphones
 @include mediaSm {
@@ -1744,6 +1923,8 @@
             // float: left;
             @include Noto;
             font-size: 16px;
+            margin-bottom: 60px;
+            text-align: center;
           }
 
           ul {
@@ -1755,6 +1936,7 @@
               color: white;
               @include Noto;
               font-weight: 500;
+              font-size: 30px;
             }
 
             li a {
@@ -1762,6 +1944,25 @@
               padding-right: 20px;
               text-decoration: none;
               color: white;
+              text-align: center;
+            }
+          }
+
+          #free_btn{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+            background-image: url(..\img\white_arrow.png);
+            background-image: linear-gradient(to right, #dc4588,#ff8940);
+            
+            span{
+              margin-left: 10px;
+              img{
+                width: 18px;
+              }
             }
           }
 
@@ -2288,4 +2489,45 @@
       }
     }
   }
+
+
+  .tools{
+    .inner_tools{
+      width: 100%;
+      margin: auto;
+      margin-bottom: 100px;
+      .tools_heading {
+        @include h2p;
+        h2 {
+          font-size: 24px;
+            }
+          }
+    
+    .banner{
+      width: 90%;
+      margin: 0 auto;
+      img{
+        width: 100%;
+      }
+    }
+    
+    
+        }
+      }
+
+      .banner_2{
+        .inner_banner_2{
+          width: 100%;
+          margin: auto;
+          margin-bottom: 100px;
+          .banner_2_img{
+            width: 95%;
+            margin: 0 auto;
+            img{
+              width: 100%;
+            }
+          }
+        }
+        }
+
 }

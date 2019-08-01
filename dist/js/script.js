@@ -9,6 +9,7 @@ $(window).on("scroll", function() {
           $(".logo").css("color", "black");
           $(".overlay").css("background", "White");
           $("#closebtn").css("color", "black");
+          $(' #free_btn ').css("color", "white");
         } else {
           //remove the background property so it comes transparent again (defined in your css)
           $(".header").removeClass("active");
@@ -17,7 +18,7 @@ $(window).on("scroll", function() {
           $(".logo").css("color", "White");
           $(".overlay").css("background", "black");
           $("#closebtn").css("color", "white");
-  
+          $(' #free_btn ').css("color", "white");
         }
       } else {
         if ($(window).scrollTop() > 50) {
@@ -27,6 +28,7 @@ $(window).on("scroll", function() {
           $(".overlay").css("background", "White");
           $(".logo").css("color", "black");
           $("#closebtn").css("color", "black");
+          $(' #free_btn ').css("color", "white");
         } else {
           //remove the background property so it comes transparent again (defined in your css)
           $(".header").removeClass("active");
@@ -35,6 +37,7 @@ $(window).on("scroll", function() {
           $(".overlay").css("background", "black");
           $(".logo").css("color", "White");
           $("#closebtn").css("color", "white");
+          $(' #free_btn ').css("color", "white");
         }
       }
     }
