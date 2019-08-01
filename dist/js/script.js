@@ -102,7 +102,7 @@ $(window).on("scroll", function() {
 
   // });
 
-
+  $("img.lazy").lazyload();
 
 
     // $(".faq_disc").hide();
