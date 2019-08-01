@@ -255,6 +255,7 @@
 
   .six_fun {
     margin-bottom: 160px;
+
     .inner_six_fun {
       width: 100%;
       max-width: 1080px;
@@ -349,71 +350,78 @@
       }
     }
   }
-  .best_plan{
+
+  .best_plan {
     width: 100%;
-      max-width: 1080px;
-      margin: auto;
-      margin-bottom: 160px;
-    .best_plan_heading{
+    max-width: 1080px;
+    margin: auto auto 160px;
+
+    .best_plan_heading {
       @include h2p;
-    h2 {
-      font-size: 28px;
+
+      h2 {
+        font-size: 28px;
+      }
     }
-    }
-    
-  .price_table{
-    width: 800px;
-    margin: 0 auto;
-    img{
-      width: 100%;
+
+    .price_table {
+      width: 800px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
-  }
-
-
-  .membership{
-    .inner_membership{
+  .membership {
+    .inner_membership {
       width: 100%;
       max-width: 1080px;
       margin: auto;
-      .member_heading{
+
+      .member_heading {
         @include h2p;
+
         h2 {
           font-size: 28px;
         }
       }
 
-      .faq_container{
+      .faq_container {
         width: 900px;
         margin: 0 auto;
         height: auto;
         margin-bottom: 100px;
-        .faq_item{
+
+        .faq_item {
           margin-bottom: 40px;
           background-color: #ebf1f8;
           border-radius: 10px;
-          padding: 50px 80px 50px 80px;
-          .faq_title{
+          padding: 50px 80px;
+
+          .faq_title {
             display: grid;
             grid-template-columns: 8% 95%;
             align-items: center;
             // padding-bottom: 20px;
-            h3{
+            h3 {
               @include Noto;
               font-weight: black;
             }
-            p{
+
+            p {
               width: 40px;
               height: 40px;
               background-color: #02659b;
               color: white;
               border-radius: 100px;
               text-align: center;
-              padding-top:15%;
+              padding-top: 15%;
             }
           }
-          .faq_disc{
+
+          .faq_disc {
             border-top: solid 1px black;
             padding-top: 20px;
             display: grid;
@@ -421,7 +429,8 @@
             align-items: center;
             grid-column-gap: 30px;
             margin-top: 20px;
-            p{
+
+            p {
               @include Noto;
               letter-spacing: 1px;
               line-height: 150%;
@@ -431,102 +440,106 @@
       }
     }
   }
-footer{
-  width: 100%;
-  text-align: center;
-  @include Noto;
-  font-size: 16px;
-  height: 80px;
-  padding-top: 20px;
-}
 
-
-
-.contact{
-  background-color: #ebf1f8;
-  padding-top: 80px;
-  .contact_note{
+  footer {
+    width: 100%;
     text-align: center;
     @include Noto;
-    padding-bottom: 20px;
     font-size: 16px;
+    height: 80px;
+    padding-top: 20px;
   }
-  .inner_contact{
-    width: 100%;
-    max-width: 1080px;
-    margin: auto;
-    padding-bottom: 80px;
-    .contact_heading{
-      @include h2p;
-    h2 {
-      font-size: 28px;
+
+  .contact {
+    background-color: #ebf1f8;
+    padding-top: 80px;
+
+    .contact_note {
+      text-align: center;
+      @include Noto;
+      padding-bottom: 20px;
+      font-size: 16px;
     }
 
-    }
+    .inner_contact {
+      width: 100%;
+      max-width: 1080px;
+      margin: auto;
+      padding-bottom: 80px;
 
-    form{
-      width: 750px;
-      margin: 0 auto;
-      background-color: white;
-      border-radius: 10px;
-      padding: 80px;
-      .form_item:nth-child(1){
-        margin-bottom: 40px;
+      .contact_heading {
+        @include h2p;
+
+        h2 {
+          font-size: 28px;
+        }
       }
-      .btn-submit{
-        background-image: linear-gradient(to right,  #02659b,#10a7df );
-        border: none;
-        color: white;
-        display: block;
-        @include Noto;
-        margin: 45px auto 5px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        letter-spacing: 1px;
-        border-radius: 5px;
-        font-size: 16px;
-        span{
-          margin-left: 10px;
-          img{
-            width: 5%;
-            vertical-align: middle;
+
+      form {
+        width: 750px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 80px;
+
+        .form_item:nth-child(1) {
+          margin-bottom: 40px;
+        }
+
+        .btn-submit {
+          background-image: linear-gradient(to right, #02659b,#10a7df);
+          border: none;
+          color: white;
+          display: block;
+          @include Noto;
+          margin: 45px auto 5px;
+          padding: 20px 40px;
+          letter-spacing: 1px;
+          border-radius: 5px;
+          font-size: 16px;
+
+          span {
+            margin-left: 10px;
+
+            img {
+              width: 5%;
+              vertical-align: middle;
+            }
+          }
+        }
+
+        input {
+          width: 590px;
+          height: 50px;
+          border-radius: 5px;
+          background-color: #ebf1f8;
+          box-sizing: border-box;
+          padding: 12px 20px;
+          border: none;
+        }
+
+        input:focus {
+          // background-color: yellow;
+          @include Noto;
+          letter-spacing: 1px;
+        }
+
+        .label {
+          @include Noto;
+          font-weight: 800;
+          color: #232323;
+          margin-bottom: 10px;
+
+          span {
+            color: red;
+            font-weight: lighter;
+            font-size: 16px;
+            margin-left: 10px;
           }
         }
       }
-      input{
-        width: 590px;
-        height: 50px;
-        border-radius: 5px;
-        background-color: #ebf1f8;
-        box-sizing: border-box;
-        padding: 12px 20px;
-        border: none;
-      }
-      input:focus { 
-        // background-color: yellow;
-        @include Noto;
-        letter-spacing: 1px;
-      }
-      .label{
-        @include Noto;
-        font-weight: 800;
-        color: #232323;
-        margin-bottom: 10px;
-        span{
-          color: red;
-          font-weight: lighter;
-          font-size: 16px;
-          margin-left: 10px;
-        }
-      }
     }
   }
-
-}
-
-
 }
 //Desktop & Laptops
 @include mediaLg {
@@ -885,71 +898,76 @@ footer{
     }
   }
 
-
-  .best_plan{
+  .best_plan {
     width: 100%;
-      max-width: 960px;
-      margin: auto;
-      margin-bottom: 120px;
-    .best_plan_heading{
+    max-width: 960px;
+    margin: auto auto 120px;
+
+    .best_plan_heading {
       @include h2p;
-    h2 {
-      font-size: 28px;
+
+      h2 {
+        font-size: 28px;
+      }
     }
-    }
-    
-  .price_table{
-    width: 700px;
-    margin: 0 auto;
-    img{
-      width: 100%;
+
+    .price_table {
+      width: 700px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
-  }
-
-
-  .membership{
-    .inner_membership{
+  .membership {
+    .inner_membership {
       width: 100%;
       max-width: 960px;
       margin: auto;
-      .member_heading{
+
+      .member_heading {
         @include h2p;
+
         h2 {
           font-size: 28px;
         }
       }
 
-      .faq_container{
+      .faq_container {
         width: 800px;
         margin: 0 auto;
         height: 900px;
-        .faq_item{
+
+        .faq_item {
           margin-bottom: 40px;
           background-color: #ebf1f8;
           border-radius: 10px;
-          padding: 50px 80px 50px 80px;
-          .faq_title{
+          padding: 50px 80px;
+
+          .faq_title {
             display: grid;
             grid-template-columns: 8% 95%;
             align-items: center;
             // padding-bottom: 20px;
-            h3{
+            h3 {
               @include Noto;
               font-weight: black;
             }
-            p{
+
+            p {
               width: 40px;
               height: 40px;
               background-color: #02659b;
               color: white;
               border-radius: 100px;
               text-align: center;
-              padding-top:15%;
+              padding-top: 15%;
             }
           }
-          .faq_disc{
+
+          .faq_disc {
             border-top: solid 1px black;
             padding-top: 20px;
             display: grid;
@@ -957,7 +975,8 @@ footer{
             align-items: center;
             grid-column-gap: 30px;
             margin-top: 20px;
-            p{
+
+            p {
               @include Noto;
               letter-spacing: 1px;
               line-height: 150%;
@@ -967,7 +986,8 @@ footer{
       }
     }
   }
-  footer{
+
+  footer {
     width: 100%;
     text-align: center;
     @include Noto;
@@ -976,61 +996,65 @@ footer{
     padding-top: 20px;
   }
 
-
-  .contact{
+  .contact {
     background-color: #ebf1f8;
     padding-top: 80px;
-    .contact_note{
+
+    .contact_note {
       text-align: center;
       @include Noto;
       padding-bottom: 20px;
       font-size: 16px;
     }
-    .inner_contact{
+
+    .inner_contact {
       width: 100%;
-      max-width:960px;
+      max-width: 960px;
       margin: auto;
       padding-bottom: 80px;
-      .contact_heading{
+
+      .contact_heading {
         @include h2p;
-      h2 {
-        font-size: 28px;
+
+        h2 {
+          font-size: 28px;
+        }
       }
-  
-      }
-  
-      form{
+
+      form {
         width: 750px;
         margin: 0 auto;
         background-color: white;
         border-radius: 10px;
         padding: 80px;
-        .form_item:nth-child(1){
+
+        .form_item:nth-child(1) {
           margin-bottom: 40px;
         }
-        .btn-submit{
-          background-image: linear-gradient(to right,  #02659b,#10a7df );
+
+        .btn-submit {
+          background-image: linear-gradient(to right, #02659b,#10a7df);
           border: none;
           color: white;
           display: block;
           @include Noto;
           margin: 45px auto 5px;
-          padding-left: 40px;
-          padding-right: 40px;
-          padding-top: 20px;
-          padding-bottom: 20px;
+          padding: 20px 40px;
           letter-spacing: 1px;
           border-radius: 5px;
           font-size: 16px;
-          span{
+
+          span {
             margin-left: 10px;
-            img{
+
+            img {
               width: 5%;
               vertical-align: middle;
             }
           }
         }
-        input{
+
+        input {
           width: 590px;
           height: 50px;
           border-radius: 5px;
@@ -1039,17 +1063,20 @@ footer{
           padding: 12px 20px;
           border: none;
         }
-        input:focus { 
+
+        input:focus {
           // background-color: yellow;
           @include Noto;
           letter-spacing: 1px;
         }
-        .label{
+
+        .label {
           @include Noto;
           font-weight: 800;
           color: #232323;
           margin-bottom: 10px;
-          span{
+
+          span {
             color: red;
             font-weight: lighter;
             font-size: 16px;
@@ -1058,11 +1085,7 @@ footer{
         }
       }
     }
-  
   }
-  
-
-
 }
 //Tablets & Small Laptops
 @include mediaMd {
@@ -1471,69 +1494,77 @@ footer{
       }
     }
   }
-  .best_plan{
+
+  .best_plan {
     width: 100%;
-      max-width: 700px;
-      margin: auto;
-    .best_plan_heading{
+    max-width: 700px;
+    margin: auto;
+
+    .best_plan_heading {
       @include h2p;
-    h2 {
-      font-size: 28px;
+
+      h2 {
+        font-size: 28px;
+      }
     }
-    }
-    
-  .price_table{
-    width: 90%;
-    margin: 0 auto;
-    img{
-      width: 100%;
+
+    .price_table {
+      width: 90%;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
-  }
-
-
-  .membership{
-    .inner_membership{
-      width:90%;
+  .membership {
+    .inner_membership {
+      width: 90%;
       margin: auto;
-      .member_heading{
+
+      .member_heading {
         @include h2p;
+
         h2 {
           font-size: 28px;
         }
       }
 
-      .faq_container{
+      .faq_container {
         width: 100%;
         margin: 0 auto;
         height: auto;
         padding-bottom: 100px;
-        .faq_item{
+
+        .faq_item {
           margin-bottom: 40px;
           background-color: #ebf1f8;
           border-radius: 10px;
-          padding: 30px 30px 30px 30px;
-          .faq_title{
+          padding: 30px;
+
+          .faq_title {
             display: grid;
             grid-template-columns: 10% 95%;
             align-items: center;
             // padding-bottom: 20px;
-            h3{
+            h3 {
               @include Noto;
               font-weight: black;
             }
-            p{
+
+            p {
               width: 40px;
               height: 40px;
               background-color: #02659b;
               color: white;
               border-radius: 100px;
               text-align: center;
-              padding-top:15%;
+              padding-top: 15%;
             }
           }
-          .faq_disc{
+
+          .faq_disc {
             border-top: solid 1px black;
             padding-top: 20px;
             display: grid;
@@ -1541,7 +1572,8 @@ footer{
             align-items: center;
             grid-column-gap: 10px;
             margin-top: 20px;
-            p{
+
+            p {
               @include Noto;
               letter-spacing: 1px;
               line-height: 150%;
@@ -1551,7 +1583,8 @@ footer{
       }
     }
   }
-  footer{
+
+  footer {
     width: 100%;
     text-align: center;
     @include Noto;
@@ -1560,60 +1593,64 @@ footer{
     padding-top: 20px;
   }
 
-
-  .contact{
+  .contact {
     background-color: #ebf1f8;
     padding-top: 80px;
-    .contact_note{
+
+    .contact_note {
       text-align: center;
       @include Noto;
       padding-bottom: 20px;
       font-size: 16px;
     }
-    .inner_contact{
+
+    .inner_contact {
       width: 90%;
       margin: auto;
       padding-bottom: 80px;
-      .contact_heading{
+
+      .contact_heading {
         @include h2p;
-      h2 {
-        font-size: 28px;
+
+        h2 {
+          font-size: 28px;
+        }
       }
-  
-      }
-  
-      form{
+
+      form {
         width: 100%;
         margin: 0 auto;
         background-color: white;
         border-radius: 10px;
         padding: 40px;
-        .form_item:nth-child(1){
+
+        .form_item:nth-child(1) {
           margin-bottom: 40px;
         }
-        .btn-submit{
-          background-image: linear-gradient(to right,  #02659b,#10a7df );
+
+        .btn-submit {
+          background-image: linear-gradient(to right, #02659b,#10a7df);
           border: none;
           color: white;
           display: block;
           @include Noto;
           margin: 45px auto 5px;
-          padding-left: 40px;
-          padding-right: 40px;
-          padding-top: 20px;
-          padding-bottom: 20px;
+          padding: 20px 40px;
           letter-spacing: 1px;
           border-radius: 5px;
           font-size: 16px;
-          span{
+
+          span {
             margin-left: 10px;
-            img{
+
+            img {
               width: 5%;
               vertical-align: middle;
             }
           }
         }
-        input{
+
+        input {
           width: 100%;
           height: 50px;
           border-radius: 5px;
@@ -1622,17 +1659,20 @@ footer{
           padding: 12px 20px;
           border: none;
         }
-        input:focus { 
+
+        input:focus {
           // background-color: yellow;
           @include Noto;
           letter-spacing: 1px;
         }
-        .label{
+
+        .label {
           @include Noto;
           font-weight: 800;
           color: #232323;
           margin-bottom: 10px;
-          span{
+
+          span {
             color: red;
             font-weight: lighter;
             font-size: 16px;
@@ -1641,13 +1681,7 @@ footer{
         }
       }
     }
-  
   }
-  
-
-
-
-
 }
 //Smartphones
 @include mediaSm {
@@ -1957,6 +1991,7 @@ footer{
 
   .six_fun {
     margin-bottom: 120px;
+
     .inner_six_fun {
       width: 95%;
       // max-width: 700px;
@@ -2064,184 +2099,193 @@ footer{
     }
   }
 
-  .best_plan{
+  .best_plan {
     width: 100%;
-      max-width: 700px;
-      margin: auto;
-      margin-bottom: 120px;
-    .best_plan_heading{
+    max-width: 700px;
+    margin: auto auto 120px;
+
+    .best_plan_heading {
       @include h2p;
-    h2 {
-      font-size: 24px;
-    }
-    }
-    
-  .price_table{
-    width: 90%;
-    margin: 0 auto;
-    img{
-      width: 100%;
-    }
-  }
-  }
 
-
-footer{
-  width: 100%;
-  height: 80px;
-  padding-top: 25px;
-  text-align: center;
-  @include Noto;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-  
-
-
-.membership{
-  .inner_membership{
-    width:98%;
-    margin: auto;
-    .member_heading{
-      @include h2p;
       h2 {
         font-size: 24px;
       }
     }
 
-    .faq_container{
-      width: 95%;
+    .price_table {
+      width: 90%;
       margin: 0 auto;
-      height: auto;
-      padding-bottom: 100px;
-      .faq_item{
-        margin-bottom: 40px;
-        background-color: #ebf1f8;
-        border-radius: 10px;
-        padding: 30px 30px 30px 30px;
-        .faq_title{
-          display: grid;
-          grid-template-columns: 10% 90%;
-          align-items: center;
-          grid-column-gap: 20px;
-          // padding-bottom: 20px;
-          h3{
-            @include Noto;
-            font-weight: black;
-          }
-          p{
-            width: 40px;
-            height: 40px;
-            background-color: #02659b;
-            color: white;
-            border-radius: 100px;
-            text-align: center;
-            padding-top:20%;
-          }
-        }
-        .faq_disc{
-          border-top: solid 1px black;
-          padding-top: 20px;
-          display: grid;
-          grid-template-columns: 90% 8%;
-          align-items: center;
-          grid-column-gap: 10px;
-          margin-top: 20px;
-          p{
-            @include Noto;
-            letter-spacing: 1px;
-            line-height: 150%;
-          }
-        }
+
+      img {
+        width: 100%;
       }
     }
   }
-}
 
-
-.contact{
-  background-color: #ebf1f8;
-  padding-top: 80px;
-  .contact_note{
+  footer {
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
     text-align: center;
     @include Noto;
-    padding-bottom: 20px;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
-  .inner_contact{
-    width: 90%;
-    margin: auto;
-    padding-bottom: 80px;
-    .contact_heading{
-      @include h2p;
-    h2 {
-      font-size: 24px;
-    }
 
-    }
+  .membership {
+    .inner_membership {
+      width: 98%;
+      margin: auto;
 
-    form{
-      width: 100%;
-      margin: 0 auto;
-      background-color: white;
-      border-radius: 10px;
-      padding: 40px;
-      .form_item:nth-child(1){
-        margin-bottom: 40px;
+      .member_heading {
+        @include h2p;
+
+        h2 {
+          font-size: 24px;
+        }
       }
-      .btn-submit{
-        background-image: linear-gradient(to right,  #02659b,#10a7df );
-        border: none;
-        color: white;
-        display: block;
-        @include Noto;
-        margin: 45px auto 5px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        letter-spacing: 1px;
-        border-radius: 5px;
-        font-size: 16px;
-        span{
-          margin-left: 10px;
-          img{
-            width: 5%;
-            vertical-align: middle;
+
+      .faq_container {
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+        padding-bottom: 100px;
+
+        .faq_item {
+          margin-bottom: 40px;
+          background-color: #ebf1f8;
+          border-radius: 10px;
+          padding: 30px;
+
+          .faq_title {
+            display: grid;
+            grid-template-columns: 10% 90%;
+            align-items: center;
+            grid-column-gap: 20px;
+            // padding-bottom: 20px;
+            h3 {
+              @include Noto;
+              font-weight: black;
+            }
+
+            p {
+              width: 40px;
+              height: 40px;
+              background-color: #02659b;
+              color: white;
+              border-radius: 100px;
+              text-align: center;
+              padding-top: 20%;
+            }
+          }
+
+          .faq_disc {
+            border-top: solid 1px black;
+            padding-top: 20px;
+            display: grid;
+            grid-template-columns: 90% 8%;
+            align-items: center;
+            grid-column-gap: 10px;
+            margin-top: 20px;
+
+            p {
+              @include Noto;
+              letter-spacing: 1px;
+              line-height: 150%;
+            }
           }
         }
       }
-      input{
+    }
+  }
+
+  .contact {
+    background-color: #ebf1f8;
+    padding-top: 80px;
+
+    .contact_note {
+      text-align: center;
+      @include Noto;
+      padding-bottom: 20px;
+      font-size: 10px;
+    }
+
+    .inner_contact {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 80px;
+
+      .contact_heading {
+        @include h2p;
+
+        h2 {
+          font-size: 24px;
+        }
+      }
+
+      form {
         width: 100%;
-        height: 50px;
-        border-radius: 5px;
-        background-color: #ebf1f8;
-        box-sizing: border-box;
-        padding: 12px 20px;
-        border: none;
-      }
-      input:focus { 
-        // background-color: yellow;
-        @include Noto;
-        letter-spacing: 1px;
-      }
-      .label{
-        @include Noto;
-        font-weight: 800;
-        color: #232323;
-        margin-bottom: 10px;
-        span{
-          color: red;
-          font-weight: lighter;
-          font-size: 16px;
-          margin-left: 10px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+
+        .form_item:nth-child(1) {
+          margin-bottom: 40px;
+        }
+
+        .btn-submit {
+          background-image: linear-gradient(to right, #02659b,#10a7df);
+          border: none;
+          color: white;
+          display: block;
+          @include Noto;
+          margin: 45px auto 5px;
+          padding: 20px;
+          letter-spacing: 1px;
+          border-radius: 5px;
+          font-size: 14px;
+
+          span {
+            margin-left: 10px;
+
+            img {
+              width: 5%;
+              vertical-align: middle;
+            }
+          }
+        }
+
+        input {
+          width: 100%;
+          height: 50px;
+          border-radius: 5px;
+          background-color: #ebf1f8;
+          box-sizing: border-box;
+          padding: 12px 20px;
+          border: none;
+        }
+
+        input:focus {
+          // background-color: yellow;
+          @include Noto;
+          letter-spacing: 1px;
+        }
+
+        .label {
+          @include Noto;
+          font-weight: 800;
+          color: #232323;
+          margin-bottom: 10px;
+
+          span {
+            color: red;
+            font-weight: lighter;
+            font-size: 14px;
+            margin-left: 10px;
+          }
         }
       }
     }
   }
-
-}
-
-
-
 }
