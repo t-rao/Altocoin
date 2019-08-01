@@ -220,7 +220,7 @@
             // text-align: left;
             padding-left: 50px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             width: 190px;
             text-align: left;
             font-size: 22px;
@@ -230,12 +230,12 @@
             // text-align: left;
             padding-left: 50px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             width: 190px;
             text-align: left;
           }
           // display: inline-block;
-          border-bottom: 2px solid blue;
+          border-bottom: 2px solid #02659b;
         }
 
         tr {
@@ -825,7 +825,7 @@
             // text-align: left;
             padding-left: 50px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             width: 190px;
             text-align: left;
             font-size: 22px;
@@ -835,12 +835,12 @@
             // text-align: left;
             padding-left: 50px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             width: 190px;
             text-align: left;
           }
           // display: inline-block;
-          border-bottom: 2px solid blue;
+          border-bottom: 2px solid #02659b;
         }
 
         tr {
@@ -1480,7 +1480,7 @@
             // text-align: left;
             padding-left: 50px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             width: 20%;
             text-align: left;
             font-size: 22px;
@@ -1490,12 +1490,12 @@
             // text-align: left;
             padding-left: 50px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             width: 30%;
             text-align: left;
           }
           // display: inline-block;
-          border-bottom: 2px solid blue;
+          border-bottom: 2px solid #02659b;
         }
 
         tr {
@@ -2130,7 +2130,7 @@
         text-align: center;
         @include Poppins;
         display: block;
-        width: 94%;
+        width: 90%;
         margin: 0 auto;
         border-collapse: collapse;
 
@@ -2139,7 +2139,7 @@
             // text-align: left;
             padding-left: 30px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             // width: 20%;
             text-align: left;
             font-size: 16px;
@@ -2149,12 +2149,13 @@
             // text-align: left;
             padding-left: 11px;
             padding-bottom: 20px;
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid #02659b;
             // width: 30%;
             text-align: left;
+            font-size: 13px;
           }
           // display: inline-block;
-          border-bottom: 2px solid blue;
+          border-bottom: 2px solid #02659b;
         }
 
         tr {
@@ -2197,7 +2198,7 @@
       width: 95%;
       // max-width: 700px;
       margin: auto;
-      height: 4150px;
+      height: 3860px;
 
       .six_fun_heading {
         @include h2p;
@@ -2214,7 +2215,7 @@
         grid-template-rows: 281px 320px;
         height: auto;
         justify-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
 
         .limg_container {
           width: 270px;
@@ -2236,7 +2237,7 @@
         grid-template-rows: 246px 275px;
         height: auto;
         justify-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
 
         .rimg_container {
           grid-row-start: 1;
@@ -2252,7 +2253,9 @@
           }
         }
       }
-
+ .mgrid_v {
+  grid-template-rows: 246px 344px;
+}
       .title {
         display: grid;
         grid-template-columns: 20% 80%;
@@ -2282,11 +2285,11 @@
       }
 
       .ltext_container {
-        padding-top: 60px;
+        padding-top: 30px;
       }
 
       .rtext_container {
-        padding-top: 60px;
+        padding-top: 30px;
       }
 
       .para {
@@ -2326,10 +2329,10 @@
   footer {
     width: 100%;
     height: 80px;
-    padding-top: 25px;
+    padding-top: 30px;
     text-align: center;
     @include Noto;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
 

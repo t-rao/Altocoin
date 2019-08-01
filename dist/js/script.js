@@ -105,11 +105,18 @@ $(window).on("scroll", function() {
 
 
 
-    $(".faq_disc").hide();
-    $(".faq_title h3").click(function(){
-        $(".faq_disc").slideDown();
-    });
+    // $(".faq_disc").hide();
+    // $(".faq_title h3").click(function(){
+    //     $(".faq_disc").slideDown();
+    // });
     $(".slide-down").click(function(){
       $(".faq_disc").slideUp();
     });
+
+    $(".faq_disc").hide();
+    $('.faq_title').click(function(){
+      $(this).next('.faq_disc').slideToggle(); 
+  });
+
+
 });
