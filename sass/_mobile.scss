@@ -80,14 +80,19 @@
             padding-bottom: 10px;
             border-radius: 5px;
             margin-left: 20px;
-            background-image: url(..\img\white_arrow.png);
+            // background-image: url(..\img\white_arrow.png);
             background-image: linear-gradient(to right, #dc4588,#ff8940);
+            transition: all 1s ease-in-out;
             span{
               margin-left: 10px;
               img{
                 width: 8px;
               }
             }
+          }
+
+          #free_btn:hover{
+            background-image: linear-gradient(to right,#ff8940,#dc4588);
           }
         }
       }
@@ -404,6 +409,7 @@
         h2 {
           font-size: 28px;
         }
+
       }
 
       .faq_container {
@@ -435,7 +441,8 @@
               color: white;
               border-radius: 100px;
               text-align: center;
-              padding-top: 15%;
+              padding-top: 10%;
+              font-weight: bold;
             }
           }
 
@@ -573,10 +580,14 @@
       }
 
 .banner{
-  width: 1080px;
+  width: 800px;
+  margin: 0 auto;
   img{
     width: 100%;
+    
   }
+  img:hover {filter: alpha(opacity=80);
+    opacity: .8; }
 }
 
 
@@ -596,9 +607,21 @@
         img{
           width: 100%;
         }
+        
+          img:hover {filter: alpha(opacity=80);
+            opacity: .8; }
+       
       }
     }
     }
+
+
+.ghost_btn:hover{
+  color: #02659b!important;
+  border: none;
+  background-color: white;
+}
+
 
 
 }
@@ -1184,6 +1207,8 @@
       img{
         width: 100%;
       }
+      img:hover {filter: alpha(opacity=80);
+        opacity: .8; }
     }
     
     
@@ -1201,6 +1226,8 @@
             img{
               width: 100%;
             }
+            img:hover {filter: alpha(opacity=80);
+              opacity: .8; }
           }
         }
         }
@@ -1840,6 +1867,8 @@
       img{
         width: 100%;
       }
+      img:hover {filter: alpha(opacity=80);
+        opacity: .8; }
     }
     
     
@@ -1857,6 +1886,8 @@
             img{
               width: 100%;
             }
+            img:hover {filter: alpha(opacity=80);
+              opacity: .8; }
           }
         }
         }
@@ -2044,7 +2075,7 @@
   }
 
   .corres {
-    height: 500px;
+    height: 450px;
 
     .inner_corres {
       width: 100%;
@@ -2054,9 +2085,11 @@
 
       .corres_heading {
         @include h2p;
-
         h2 {
-          font-size: 24px;
+          font-size: 20px;
+        }
+        p{
+          margin-bottom: 25px;
         }
       }
 
@@ -2078,7 +2111,7 @@
 
   .hwork {
     height: auto;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 
     .innerhwork {
       width: 100%;
@@ -2089,11 +2122,14 @@
         @include h2h3p;
 
         h2 {
-          font-size: 24px;
+          font-size: 20px;
         }
 
         h3 {
           font-size: 18px;
+        }
+        p{
+          margin-bottom: 25px;
         }
       }
 
@@ -2110,7 +2146,7 @@
 
   .rate_list {
     height: auto;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 
     .inner_rate_list {
       width: 100%;
@@ -2121,7 +2157,10 @@
         @include h2p;
 
         h2 {
-          font-size: 24px;
+          font-size: 20px;
+        }
+        p{
+          margin-bottom: 30px;
         }
       }
 
@@ -2192,7 +2231,7 @@
   }
 
   .six_fun {
-    margin-bottom: 120px;
+    margin-bottom: 0px;
 
     .inner_six_fun {
       width: 95%;
@@ -2204,7 +2243,10 @@
         @include h2p;
 
         h2 {
-          font-size: 24px;
+          font-size: 20px;
+        }
+        p{
+          margin-bottom: 10px;
         }
       }
 
@@ -2280,7 +2322,7 @@
           @include Noto;
           font-weight: black;
           letter-spacing: 2px;
-          font-size: 20px;
+          font-size: 18px;
         }
       }
 
@@ -2306,13 +2348,18 @@
   .best_plan {
     width: 100%;
     max-width: 700px;
-    margin: auto auto 120px;
+    margin: auto auto 60px;
 
     .best_plan_heading {
       @include h2p;
-
       h2 {
-        font-size: 24px;
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+      p{
+        margin-bottom: 40px;
       }
     }
 
@@ -2345,7 +2392,10 @@
         @include h2p;
 
         h2 {
-          font-size: 24px;
+          font-size: 20px;
+        }
+        p{
+          margin-bottom: 30px;
         }
       }
 
@@ -2353,7 +2403,7 @@
         width: 95%;
         margin: 0 auto;
         height: auto;
-        padding-bottom: 100px;
+        padding-bottom: 40px;
 
         .faq_item {
           margin-bottom: 40px;
@@ -2363,13 +2413,14 @@
 
           .faq_title {
             display: grid;
-            grid-template-columns: 10% 90%;
+            grid-template-columns: 10% 85%;
             align-items: center;
             grid-column-gap: 20px;
             // padding-bottom: 20px;
             h3 {
               @include Noto;
               font-weight: black;
+              font-size: 16px;
             }
 
             p {
@@ -2396,6 +2447,7 @@
               @include Noto;
               letter-spacing: 1px;
               line-height: 150%;
+              font-size: 15px;
             }
           }
         }
@@ -2423,7 +2475,10 @@
         @include h2p;
 
         h2 {
-          font-size: 24px;
+          font-size: 20px;
+        }
+        p{
+          margin-bottom: 40px;
         }
       }
 
@@ -2498,11 +2553,14 @@
     .inner_tools{
       width: 100%;
       margin: auto;
-      margin-bottom: 100px;
+      margin-bottom: 60px;
       .tools_heading {
         @include h2p;
         h2 {
-          font-size: 24px;
+          font-size: 20px;
+            }
+            p{
+              margin-bottom: 30px;
             }
           }
     
@@ -2512,6 +2570,8 @@
       img{
         width: 100%;
       }
+      img:hover {filter: alpha(opacity=80);
+        opacity: .8; }
     }
     
     
@@ -2522,13 +2582,16 @@
         .inner_banner_2{
           width: 100%;
           margin: auto;
-          margin-bottom: 100px;
+          margin-bottom: 60px;
           .banner_2_img{
             width: 95%;
             margin: 0 auto;
             img{
               width: 100%;
             }
+            img:hover {filter: alpha(opacity=80);
+              opacity: .8; }
+            
           }
         }
         }
