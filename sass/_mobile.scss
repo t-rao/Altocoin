@@ -1,5 +1,8 @@
 // Widescreens
 @include mediaXl {
+  .sp{
+    display: none;
+  }
   // background image header
   .hero_bg {
     width: 100%;
@@ -627,6 +630,9 @@
 }
 //Desktop & Laptops
 @include mediaLg {
+  .sp{
+    display: none;
+  }
   // background image header
   .hero_bg {
     width: 100%;
@@ -1236,6 +1242,9 @@
 //Tablets & Small Laptops
 @include mediaMd {
   // background image header
+  .sp{
+    display: none;
+  }
   .hero_bg {
     width: 100%;
     background-image: url("../img/landingpage_bg.jpg");
@@ -1896,9 +1905,12 @@
 //Smartphones
 @include mediaSm {
   // background image header
+  .sp{
+    display: block;
+  }
   .hero_bg {
     width: 100%;
-    background-image: url("../img/landingpage_bg.jpg");
+    background-image: url("../img/mobile_bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2048,13 +2060,13 @@
       color: white;
 
       h3 {
-        font-size: 18px;
+        font-size: 16px;
         @include Noto;
         margin-bottom: 20px;
       }
 
       h2 {
-        font-size: 22px;
+        font-size: 19px;
         @include Noto;
         letter-spacing: 1px;
       }
@@ -2177,21 +2189,21 @@
           th:nth-child(1) {
             // text-align: left;
             padding-left: 30px;
-            padding-bottom: 20px;
+            // padding-bottom: 20px;
             border-bottom: 2px solid #02659b;
             // width: 20%;
             text-align: left;
-            font-size: 16px;
+            font-size: 12px;
           }
 
           th:nth-child(4) {
             // text-align: left;
             padding-left: 11px;
-            padding-bottom: 20px;
+            // padding-bottom: 20px;
             border-bottom: 2px solid #02659b;
             // width: 30%;
             text-align: left;
-            font-size: 13px;
+            font-size: 12px;
           }
           // display: inline-block;
           border-bottom: 2px solid #02659b;
@@ -2202,7 +2214,7 @@
 
           th {
             letter-spacing: 1px;
-            font-size: 16px;
+            font-size: 12px;
           }
 
           td {
@@ -2565,7 +2577,7 @@
           }
     
     .banner{
-      width: 90%;
+      width: 95%;
       margin: 0 auto;
       img{
         width: 100%;
